@@ -73,3 +73,30 @@ img {
 }
 
 /* esercizio responsive */
+
+@media screen and (max-width: 419px) {
+  h1 {
+    text-align: left;
+    width: 30%;
+    margin-left: 7%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 20%;
+    float: left;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 10%;
+  }
+
+  img {
+    height: auto;
+    width: 50%;
+  }
+
+}
