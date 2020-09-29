@@ -222,3 +222,25 @@ img {
     }
 
   }
+
+    @media screen and (max-width: 268px) {
+      #why img {
+        height: auto;
+        width: 150px;
+      }
+    }
+
+    @media screen and (max-width: 218px) {
+      #why img {
+        height: auto;
+        width: 40px;
+      }
+    }
+
+    @media screen and (max-width: 108px) {
+      #why img {
+        height: auto;
+        width: 40px;
+        padding: 2px 2px;
+      }
+    }
