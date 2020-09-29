@@ -104,29 +104,35 @@ img {
 
   #lezioni img {
     height: auto;
-    width: 90px;
+    width: 100px;
     margin-left: 10%;
   }
 
   /* BLOCCO STEPS */
-  /* #steps h1 {
-    text-align: left;
-    width: 30%;
-    margin-left: 10%;
+  #steps h1 {
+    text-align: center;
+    width: 100%;
+    /* margin-left: 10%; */
   }
 
-  #steps .row>.left,
-  #steps .row>.central,
+  #steps .row>.left {
+    float: left;
+    width: 33,33%;
+  }
+
+  #steps .row>.central {
+    float: left;
+    width: 33,33%;
+  }
+
   #steps .row>.right {
     float: left;
-    width: 10%;
-    padding-left: 2%;
+    width: 33,33%;
   }
 
   #steps img {
     height: auto;
     width: 90px;
-    margin-left: 10%;
   }
 
     /* BLOCCO PERCHE */
@@ -145,5 +151,5 @@ img {
       background-color: #428bca;
       border-radius: 50%;
       padding: 30px
-    } */ */
+    } */
 }
