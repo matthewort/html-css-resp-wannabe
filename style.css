@@ -75,16 +75,37 @@ img {
 /* esercizio responsive */
 
 @media screen and (max-width: 419px) {
-  h1 {
+
+  /* BLOCCO LEZIONI */
+  #lezioni h1 {
     text-align: left;
     width: 30%;
     margin-left: 7%;
   }
 
-  #lezioni .row>.left,
   #lezioni .row>.right {
     width: 20%;
     float: left;
+    padding-top: 3.5%;
+  }
+
+
+  #lezioni .row>.left {
+    width: 20%;
+    float: left;
+  }
+
+  #lezioni img {
+    height: auto;
+    width: 90px;
+    margin-left: 10%;
+  }
+
+  /* BLOCCO STEPS */
+  #steps h1 {
+    text-align: left;
+    width: 30%;
+    margin-left: 10%;
   }
 
   #steps .row>.left,
@@ -92,11 +113,13 @@ img {
   #steps .row>.right {
     float: left;
     width: 10%;
+    padding-left: 2%;
   }
 
-  img {
+  #steps img {
     height: auto;
-    width: 50%;
+    width: 90px;
+    margin-left: 10%;
   }
 
 }
